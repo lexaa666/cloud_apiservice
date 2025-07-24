@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Локальные файлы Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Персональные файлы переменных (часто содержат секреты)
+*.tfvars
+*.tfvars.json
+
+# План выполнения Terraform
+*.tfplan
+
+# Файлы состояния Terraform (часто содержат чувствительные данные)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log Terraform
+crash.log
+
+# Файлы override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Системные файлы
+.DS_Store
+Thumbs.db
